@@ -10,6 +10,7 @@ import { RouterModule, Routes, DefaultUrlSerializer, UrlSerializer, UrlTree, Tit
 import { LoginComponent } from './components/login/login.component';
 import { HomeComponent } from './components/home/home.component';
 import { CustomersComponent } from './components/customers/customers.component';
+import { FormComponent } from './components/form/form.component';
 import { ProductsComponent } from './components/products/products.component';
 import { OrdersComponent } from './components/orders/orders.component';
 import { SettingsComponent } from './components/settings/settings.component';
@@ -45,11 +46,13 @@ const routes: Routes = [
   { path: '', component: HomeComponent, canActivate: [AuthGuard], title: 'Home' },
   { path: 'login', component: LoginComponent, title: 'Login' },
   { path: 'customers', component: CustomersComponent, canActivate: [AuthGuard], title: 'Customers' },
+  { path: 'form', component: FormComponent, canActivate: [AuthGuard], title: 'Form' },
   { path: 'products', component: ProductsComponent, canActivate: [AuthGuard], title: 'Products' },
   { path: 'orders', component: OrdersComponent, canActivate: [AuthGuard], title: 'Orders' },
   { path: 'settings', component: SettingsComponent, canActivate: [AuthGuard], title: 'Settings' },
   { path: 'about', component: AboutComponent, title: 'About Us' },
   { path: 'home', redirectTo: '/', pathMatch: 'full' },
+  { path: 'form', component: FormComponent, canActivate: [AuthGuard], title: 'Form' },
   { path: '**', component: NotFoundComponent, title: 'Page Not Found' }
 ];
 
