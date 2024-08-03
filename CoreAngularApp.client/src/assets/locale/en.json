@@ -24,6 +24,7 @@
   "mainMenu": {
     "Appointments": "Appointments",
     "Customers": "Customers",
+    "Form": "Form",
     "Products": "Products",
     "Orders": "Orders",
     "About": "About",
@@ -32,6 +33,7 @@
   "pageHeader": {
     "Dashboard": "Dashboard",
     "Customers": "Customers",
+    "Form": "Form",
     "Products": "Products",
     "Orders": "Orders",
     "NotFound": "Not-Found",
@@ -250,6 +252,7 @@
     "HomePage": "Home Page:",
     "Dashboard": "Dashboard",
     "Customers": "Customers",
+    "Form": "Form",
     "Products": "Products",
     "Orders": "Orders",
     "About": "About",

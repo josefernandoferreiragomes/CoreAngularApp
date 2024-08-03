@@ -103,6 +103,10 @@ export class UserPreferencesComponent {
     return this.accountService.userHasPermission(Permissions.viewUsers); // eg. viewCustomersPermission
   }
 
+  get canViewForm() {
+    return this.accountService.userHasPermission(Permissions.viewUsers); // eg. viewFormPermission
+  }
+
   get canViewProducts() {
     return this.accountService.userHasPermission(Permissions.viewUsers); // eg. viewProductsPermission
   }

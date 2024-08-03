@@ -24,6 +24,7 @@
   "mainMenu": {
     "Appointments": "Rendez-vous",
     "Customers": "Les clients",
+    "Form": "Form",
     "Products": "Les produits",
     "Orders": "Les ordres",
     "About": "À Propos",
@@ -32,6 +33,7 @@
   "pageHeader": {
     "Dashboard": "Tableau de bord",
     "Customers": "Les clients",
+    "Form": "Form",
     "Products": "Les produits",
     "Orders": "Les ordres",
     "NotFound": "Pas trouvé",
@@ -244,6 +246,7 @@
     "HomePage": "Page d'accueil:",
     "Dashboard": "Tableau de bord",
     "Customers": "Les clients",
+    "Form": "Form",
     "Products": "Les produits",
     "Orders": "Les ordres",
     "About": "À propos",

@@ -24,6 +24,7 @@
   "mainMenu": {
     "Appointments": "المواعيد",
     "Customers": "الزبائن",
+    "Form": "Form",
     "Products": "المنتجات",
     "Orders": "الأوامر",
     "About": "حول منجز التطبيق",
@@ -32,6 +33,7 @@
   "pageHeader": {
     "Dashboard": "لوحة القيادة",
     "Customers": "الزبائن",
+    "Form": "Form",
     "Products": "المنتجات",
     "Orders": "الأوامر",
     "NotFound": "لا يوجد",
@@ -244,6 +246,7 @@
     "HomePage": "الصفحة الرئيسية:",
     "Dashboard": "لوحة القيادة",
     "Customers": "الزبائن",
+    "Form": "Form",
     "Products": "منتجات",
     "Orders": "أوامر",
     "About": "حول",

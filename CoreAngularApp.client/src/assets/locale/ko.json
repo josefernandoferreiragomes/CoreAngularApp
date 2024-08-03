@@ -24,6 +24,7 @@
   "mainMenu": {
     "Appointments": "설비",
     "Customers": "고객",
+    "Form": "Form",
     "Products": "제작품",
     "Orders": "명령",
     "About": "약",
@@ -32,6 +33,7 @@
   "pageHeader": {
     "Dashboard": "계기반",
     "Customers": "고객",
+    "Form": "Form",
     "Products": "제작품",
     "Orders": "명령",
     "NotFound": "발견되지 않음",
@@ -244,6 +246,7 @@
     "HomePage": "홈페이지 :",
     "Dashboard": "계기반",
     "Customers": "고객",
+    "Form": "Form",
     "Products": "제작품",
     "Orders": "명령",
     "About": "약",

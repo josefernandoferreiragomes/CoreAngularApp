@@ -51,8 +51,7 @@ const routes: Routes = [
   { path: 'orders', component: OrdersComponent, canActivate: [AuthGuard], title: 'Orders' },
   { path: 'settings', component: SettingsComponent, canActivate: [AuthGuard], title: 'Settings' },
   { path: 'about', component: AboutComponent, title: 'About Us' },
-  { path: 'home', redirectTo: '/', pathMatch: 'full' },
-  { path: 'form', component: FormComponent, canActivate: [AuthGuard], title: 'Form' },
+  { path: 'home', redirectTo: '/', pathMatch: 'full' },  
   { path: '**', component: NotFoundComponent, title: 'Page Not Found' }
 ];
 

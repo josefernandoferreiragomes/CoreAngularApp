@@ -41,6 +41,7 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './components/login/login.component';
 import { HomeComponent } from './components/home/home.component';
 import { CustomersComponent } from './components/customers/customers.component';
+import { FormComponent } from './components/form/form.component';
 import { ProductsComponent } from './components/products/products.component';
 import { OrdersComponent } from './components/orders/orders.component';
 import { SettingsComponent } from './components/settings/settings.component';
@@ -57,6 +58,8 @@ import { UserPreferencesComponent } from './components/controls/user-preferences
 import { UsersManagementComponent } from './components/controls/users-management.component';
 import { RolesManagementComponent } from './components/controls/roles-management.component';
 import { RoleEditorComponent } from './components/controls/role-editor.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { NameEditorComponent } from './components/name-editor/name-editor.component';
 
 @NgModule({
   declarations: [
@@ -64,6 +67,7 @@ import { RoleEditorComponent } from './components/controls/role-editor.component
     LoginComponent,
     HomeComponent,
     CustomersComponent,
+    FormComponent,
     ProductsComponent,
     OrdersComponent,
     SettingsComponent,
@@ -77,7 +81,8 @@ import { RoleEditorComponent } from './components/controls/role-editor.component
     EqualValidator,
     AutofocusDirective,
     BootstrapTabDirective,
-    GroupByPipe
+    GroupByPipe,
+    NameEditorComponent
   ],
   imports: [
     BrowserModule,
@@ -100,7 +105,8 @@ import { RoleEditorComponent } from './components/controls/role-editor.component
     NgxDatatableModule,
     ToastaModule.forRoot(),
     NgSelectModule,
-    NgChartsModule
+    NgChartsModule,
+    ReactiveFormsModule
   ],
   providers: [
     { provide: ErrorHandler, useClass: AppErrorHandler },

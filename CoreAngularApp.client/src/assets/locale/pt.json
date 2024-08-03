@@ -24,6 +24,7 @@
   "mainMenu": {
     "Appointments": "Compromissos",
     "Customers": "Clientes",
+    "Form": "Form",
     "Products": "Produtos",
     "Orders": "Pedidos",
     "About": "Sobre",
@@ -32,6 +33,7 @@
   "pageHeader": {
     "Dashboard": "Painel de Controle",
     "Customers": "Clientes",
+    "Form": "Form",
     "Products": "Produtos",
     "Orders": "Pedidos",
     "NotFound": "Não Encontrado",
@@ -244,6 +246,7 @@
     "HomePage": "Principal:",
     "Dashboard": "Painel de Controle",
     "Customers": "Clientes",
+    "Form": "Form",
     "Products": "Produtos",
     "Orders": "Pedidos",
     "About": "Sobre",
