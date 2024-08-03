@@ -59,7 +59,6 @@ import { UsersManagementComponent } from './components/controls/users-management
 import { RolesManagementComponent } from './components/controls/roles-management.component';
 import { RoleEditorComponent } from './components/controls/role-editor.component';
 import { ReactiveFormsModule } from '@angular/forms';
-import { NameEditorComponent } from './components/name-editor/name-editor.component';
 
 @NgModule({
   declarations: [
@@ -81,8 +80,7 @@ import { NameEditorComponent } from './components/name-editor/name-editor.compon
     EqualValidator,
     AutofocusDirective,
     BootstrapTabDirective,
-    GroupByPipe,
-    NameEditorComponent
+    GroupByPipe    
   ],
   imports: [
     BrowserModule,
