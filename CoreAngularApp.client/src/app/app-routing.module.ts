@@ -11,6 +11,7 @@ import { LoginComponent } from './components/login/login.component';
 import { HomeComponent } from './components/home/home.component';
 import { CustomersComponent } from './components/customers/customers.component';
 import { FormComponent } from './components/form/form.component';
+import { FetchListComponent } from './components/fetch-list/fetch-list.component';
 import { ProductsComponent } from './components/products/products.component';
 import { OrdersComponent } from './components/orders/orders.component';
 import { SettingsComponent } from './components/settings/settings.component';
@@ -47,6 +48,7 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent, title: 'Login' },
   { path: 'customers', component: CustomersComponent, canActivate: [AuthGuard], title: 'Customers' },
   { path: 'form', component: FormComponent, canActivate: [AuthGuard], title: 'Form' },
+  { path: 'fetch-list', component: FetchListComponent, canActivate: [AuthGuard], title: 'FetchList' },
   { path: 'products', component: ProductsComponent, canActivate: [AuthGuard], title: 'Products' },
   { path: 'orders', component: OrdersComponent, canActivate: [AuthGuard], title: 'Orders' },
   { path: 'settings', component: SettingsComponent, canActivate: [AuthGuard], title: 'Settings' },

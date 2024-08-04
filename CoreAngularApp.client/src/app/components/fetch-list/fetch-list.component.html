@@ -1,0 +1,28 @@
+<h1 id="tableLabel">CustomerVM</h1>
+
+<p>This component demonstrates fetching data from the server.</p>
+
+<p *ngIf="!customerVms"><em>Loading...</em></p>
+
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="customerVms">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>PhoneNumber</th>
+      <th>Address</th>
+      <th>City</th>
+      <th>Gender</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let customerVm of customerVms">
+      <td>{{ customerVm.name }}</td>
+      <td>{{ customerVm.email }}</td>
+      <td>{{ customerVm.phoneNumber }}</td>
+      <td>{{ customerVm.address }}</td>
+      <td>{{ customerVm.city }}</td>
+      <td>{{ customerVm.gender }}</td>
+    </tr>
+  </tbody>
+</table>

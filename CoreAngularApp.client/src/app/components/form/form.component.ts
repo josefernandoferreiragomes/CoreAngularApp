@@ -7,7 +7,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { fadeInOut } from '../../services/animations';
-
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 @Component({
   selector: 'app-form',
@@ -24,7 +24,7 @@ export class FormComponent implements OnInit{
 
   name = new FormControl('');
   currentCount = 0;
-  constructor(private formBuilder: FormBuilder) {}
+  constructor(private formBuilder: FormBuilder, private http: HttpClient) {}
 
   incrementCounter() {
     this.currentCount++;
@@ -44,6 +44,19 @@ export class FormComponent implements OnInit{
       }
       this.myForm.controls.field2.setValue(value * 2); // Example: double the value
     });
+
+    // API Call, simplified on the page
+    const headers = new HttpHeaders({
+      'x-rapidapi-host': 'localhost:4200',
+      'x-rapidapi-key': 'your-api-key'
+    });
+    this.http
+      .get<any>('https://localhost:4200/api/Customer', {
+        headers: headers
+      })
+      .subscribe(data => {
+        console.log(data);        
+      });
   }
 }
 

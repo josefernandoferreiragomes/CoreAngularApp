@@ -59,6 +59,7 @@ import { UsersManagementComponent } from './components/controls/users-management
 import { RolesManagementComponent } from './components/controls/roles-management.component';
 import { RoleEditorComponent } from './components/controls/role-editor.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { FetchListComponent } from './components/fetch-list/fetch-list.component';
 
 @NgModule({
   declarations: [
@@ -80,7 +81,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     EqualValidator,
     AutofocusDirective,
     BootstrapTabDirective,
-    GroupByPipe    
+    GroupByPipe,
+    FetchListComponent    
   ],
   imports: [
     BrowserModule,

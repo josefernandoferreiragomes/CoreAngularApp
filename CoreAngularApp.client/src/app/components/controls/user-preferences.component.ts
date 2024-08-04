@@ -106,7 +106,9 @@ export class UserPreferencesComponent {
   get canViewForm() {
     return this.accountService.userHasPermission(Permissions.viewUsers); // eg. viewFormPermission
   }
-
+  get canViewFetchList() {
+    return this.accountService.userHasPermission(Permissions.viewUsers); // eg. viewFetchListPermission
+  }
   get canViewProducts() {
     return this.accountService.userHasPermission(Permissions.viewUsers); // eg. viewProductsPermission
   }

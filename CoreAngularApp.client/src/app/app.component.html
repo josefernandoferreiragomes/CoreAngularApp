@@ -25,6 +25,9 @@
           <li class="nav-item" routerLinkActive="active" *ngIf="canViewForm">
             <a class="nav-link" routerLink="/form">{{'mainMenu.Form' | translate}}</a>
           </li>
+          <li class="nav-item" routerLinkActive="active" *ngIf="canViewFetchList">
+            <a class="nav-link" routerLink="/fetch-list">{{'mainMenu.FetchList' | translate}}</a>
+          </li>
           <li class="nav-item" routerLinkActive="active" *ngIf="canViewProducts">
             <a class="nav-link" routerLink="/products">{{'mainMenu.Products' | translate}}</a>
           </li>
